@@ -239,7 +239,7 @@
             >
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4" xs="12">
                     <iframe
                       width="100%"
                       height="310"
@@ -249,7 +249,17 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4" xs="12">
+                    <iframe
+                      width="100%"
+                      height="310"
+                      src="https://www.youtube.com/embed/93H4QrBtlys"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></v-col>
+                  <v-col cols="12" sm="4" xs="12">
                     <iframe
                       width="100%"
                       height="310"
@@ -263,7 +273,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
                       height="310"
@@ -273,7 +283,7 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
                       height="310"
@@ -287,7 +297,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
                       height="310"
@@ -297,7 +307,7 @@
                       allowfullscreen
                     ></iframe>
                   </v-col>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
                       height="310"
@@ -311,7 +321,7 @@
               </v-carousel-item>
               <v-carousel-item>
                 <v-row>
-                  <v-col cols="12" sm="6">
+                  <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
                       height="310"
@@ -329,6 +339,43 @@
         </v-card>
       </v-container>
     </section>
+
+    <!-- <carousel-3d
+      class="carousel"
+      :controls-visible="true"
+      :clickable="true"
+      :height="300"
+    >
+      <slide class="slide" :index="i" :key="i" v-for="(slide, i) in slides">
+        <figure class="carousel-img">
+          <img :src="slide.src" />
+
+          <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption>
+        </figure>
+        <h4>Lorem, ipsum dolor.</h4>
+        <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
+          ratione pariatur, harum mollitia quisquam et doloremque unde
+          necessitatibus blanditiis?
+        </p>
+        <a href="Learn More">Learn More</a>
+      </slide>
+    </carousel-3d> -->
+
+    <Hey />
+    <!-- <div>
+      <VueSlickCarousel v-bind="settings">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </VueSlickCarousel>
+    </div> -->
     <!-- EMPOWERING AFRICA -->
     <section class="grey lighten-4">
       <v-card tile outlined color="white">
@@ -613,8 +660,29 @@
 </template>
 
 <script>
+import Hey from "./Hey.vue";
+// import VueSlickCarousel from "vue-slick-carousel";
+// import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// // optional style for arrows & dots
+// import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
+// import { Carousel3d, Slide } from "vue-carousel-3d";
+// import Movie from "./Movie";
+// import "swiper/dist/css/swiper.css";
+// import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
+  name: "Home",
   data: () => ({
+    // slides: [
+    //   { src: require("../../public/01.jpg"), text: "Cheb Khaled" },
+    //   { src: require("../../public/02.jpeg"), text: "Soolking" },
+    //   { src: require("../../public/03.png"), text: "Chakira" },
+    //   { src: require("../../public/03.png"), text: "Chakira" },
+    //   { src: require("../../public/03.png"), text: "Chakira" },
+    //   { src: require("../../public/03.png"), text: "Chakira" },
+    //   { src: require("../../public/03.png"), text: "Chakira" },
+    // ],
+
     footerItems: [
       { icon: "mdi-facebook", href: "https://www.facebook.com/agrolog3" },
       { icon: "mdi-twitter", href: "https://twitter.com/agrolog3" },
@@ -622,9 +690,31 @@ export default {
         icon: "mdi-linkedin",
         href: "https://www.linkedin.com/in/agrolog-farm-819549207",
       },
-      { icon: "mdi-instagram", href: "https://www.instagram.com/agrolog300/" },
+      {
+        icon: "mdi-instagram",
+        href: "https://www.instagram.com/agrolog300/",
+      },
     ],
   }),
+
+  components: {
+    // Carousel3d,
+    // Slide,
+    Hey,
+  },
+
+  // data: () => ({
+
+  //   footerItems: [
+  //     { icon: "mdi-facebook", href: "https://www.facebook.com/agrolog3" },
+  //     { icon: "mdi-twitter", href: "https://twitter.com/agrolog3" },
+  //     {
+  //       icon: "mdi-linkedin",
+  //       href: "https://www.linkedin.com/in/agrolog-farm-819549207",
+  //     },
+  //     { icon: "mdi-instagram", href: "https://www.instagram.com/agrolog300/" },
+  //   ],
+  // }),
   methods: {
     goServices() {
       this.$router.push("/service");
@@ -634,6 +724,72 @@ export default {
 </script>
 
 <style lang="scss">
+// .carousel-3d-container figcaption {
+//   position: absolute;
+//   background-color: rgba(0, 0, 0, 0.5);
+//   color: #fff;
+//   bottom: 0;
+//   position: absolute;
+//   bottom: 0;
+//   padding: 15px;
+//   font-size: 12px;
+//   min-width: 100%;
+//   box-sizing: border-box;
+// }
+
+.carousel {
+  // display: grid;
+  // place-items: center;
+  // background-color: #ffff;
+  // box-shadow: 5px 10px 18px #e6e5e5;
+  text-align: center;
+  width: 100%;
+  /* height: 100%; */
+  cursor: pointer;
+  /* background-color: transparent; */
+  height: 500px !important;
+
+  /* perspective: 1000px; */
+  perspective: 2000px;
+  box-shadow: 2px 10px 10px rgba(197, 190, 190, 0.97);
+}
+
+.slide {
+  background-color: #ffff;
+  box-shadow: 5px 10px 18px #e6e5e5;
+  text-align: center;
+  width: 100%;
+  /* height: 100%; */
+  cursor: pointer;
+  /* background-color: transparent; */
+  height: 440px !important;
+
+  /* perspective: 1000px; */
+  perspective: 2000px;
+  box-shadow: 2px 10px 10px rgba(197, 190, 190, 0.97);
+  padding: 1rem;
+  border: none;
+}
+
+.carousel img {
+  width: 300px;
+  height: 200px;
+  // object-fit: contain;
+}
+.carousel h4 {
+  margin: 0.75rem 0;
+}
+.carousel a {
+  background-color: #009432;
+  padding: 0.45rem;
+  margin: 0.75rem 0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.carousel-3d-controls {
+  display: none;
+}
 .custom__bg {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
     url("../assets/ginger.jpeg");
