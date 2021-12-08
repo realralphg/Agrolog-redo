@@ -116,8 +116,127 @@
         </v-card>
       </v-container>
     </section>
+
+    <section class="services" id="services">
+      <div class="services-wrap container">
+        <h2
+          class="impact text-h5 text-md-h4 font-weight-light pt-8 grey--text text--darken-3 text-center "
+        >
+          WHAT WE DO
+        </h2>
+        <!-- <p class="lead">
+          Our services cover a wide range of innovative initiatives designed to
+          help people experience technology differently and make the most of it
+          with a view to identifying opportunities, solving problems and
+          creating value.
+        </p> -->
+
+        <div class="services-cards">
+          <div class="carddd">
+            <i class="fas fa-chart-bar fa-3x"></i>
+
+            <!-- <h4>GreyHobb</h4> -->
+            <p>
+              We are growing community of smallholder farmers that produce
+              quality Ginger/Tumeric and soy beans sustainably. All produce that
+              meet the AgroLog seal of quality are nurtured with a consciousness
+              of a tradition of responsibility at every stage from land
+              preparation to harvest.
+            </p>
+            <!-- <div class="learn"><a href="greyhobb.html">Learn More </a></div> -->
+          </div>
+
+          <div
+            class="carddd"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <i class="fas fa-warehouse fa-3x"></i>
+
+            <!-- <h4>GreyTech</h4> -->
+            <p>
+              We operate a Ginger Hub at Kachia in Kaduna state where produce is
+              evaluated, graded, branded for the market as well as for value
+              addition. On the forward integration front we work with partner
+              clusters to achieve best practices in postharvest handling that
+              deliver quality to the table.
+            </p>
+            <!-- <div class="learn"><a href="">Learn More </a></div> -->
+          </div>
+
+          <div class="carddd">
+            <i class="fas fa-user-friends fa-3x"></i>
+
+            <!-- <h4>GreyCreate</h4> -->
+            <p>
+              Our community of farmers are organized in cooperative clusters
+              across 12 Local Government Areas that grow ginger in Kaduna state.
+              We have 10 service centers that serve the needs of our farmers.
+              Our initial focus is on vegetables but our network is growing to
+              include commodities across the spectrum of agribusiness.
+            </p>
+            <!-- <div class="learn"><a href="">Learn More </a></div> -->
+          </div>
+
+          <div class="carddd">
+            <i class="fas fa-chart-pie fa-3x"></i>
+
+            <!-- <h4>GreyFund</h4> -->
+            <p>
+              The core of that tradition being aflatoxin free, quality produce
+              that meets global best practices and standards. The overarching
+              goal is create an enterprise in farming for these smallholder
+              farmers with that assure them and their families of a future that
+              would otherwise remain elusive.
+            </p>
+            <!-- <div class="learn"><a href="">Learn More </a></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rice-farm">
+      <div class="rice-farm-wrap container">
+        <div class="left">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-8 grey--text text--darken-3"
+          >
+            Global Reach
+          </h2>
+          <p>
+            To keep the pace on meeting international standards on best farming
+            practices with a view to farming optimally, we strive to partner and
+            collaborate with global players of the highest competence in the
+            agricultural sector with decades, if not centuries of track records
+            of success in innovative agriculture. Some of these
+            agro-corporations include; Alphavet, Hungaro Seeds, AgroFeed,
+            Babolna Tetra, STE Tech etc.
+          </p>
+        </div>
+        <div class="right">
+          <div class="image-grid">
+            <div class="image-row">
+              <div class="image image-01"></div>
+              <div class="image image-02"></div>
+              <div class="image image-03"></div>
+            </div>
+            <div class="image-row">
+              <div class="image image-04"></div>
+              <div class="image image-05"></div>
+              <div class="image image-06"></div>
+            </div>
+            <!-- <div class="image-row">
+              <div class="image image-06"></div>
+              <div class="image image-07"></div>
+              <div class="image image-08"></div>
+              <div class="image image-09"></div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- WHAT WE DO -->
-    <section class="white">
+    <!-- <section class="white">
       <v-container>
         <v-card tile outlined color="white">
           <h2
@@ -209,13 +328,13 @@
           </v-card-text>
         </v-card>
       </v-container>
-    </section>
+    </section> -->
     <!-- AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT -->
     <section id="agrolog__projects">
       <v-container>
         <v-card tile outlined color="white">
           <h2
-            class="text-h5 text-md-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-center custom__heading-green"
           >
             AGROLOG-MASTERCARD GINGER VALUE CHAIN PROJECT
           </h2>
@@ -242,8 +361,9 @@
                   <v-col cols="12" sm="4" xs="12">
                     <iframe
                       width="100%"
-                      height="310"
-                      src="https://www.youtube.com/embed/guLWS2hD1mE"
+                      height="315"
+                      src="https://www.youtube.com/embed/Jy55ihjiPmU"
+                      title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
@@ -252,23 +372,64 @@
                   <v-col cols="12" sm="4" xs="12">
                     <iframe
                       width="100%"
-                      height="310"
-                      src="https://www.youtube.com/embed/93H4QrBtlys"
+                      height="315"
+                      src="https://www.youtube.com/embed/kpmnvJ-yAJQ"
+                      title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
-                    ></iframe
-                  ></v-col>
+                    ></iframe>
+                  </v-col>
                   <v-col cols="12" sm="4" xs="12">
                     <iframe
                       width="100%"
-                      height="310"
-                      src="https://www.youtube.com/embed/93H4QrBtlys"
+                      height="315"
+                      src="https://www.youtube.com/embed/4jE8BKJam7M"
+                      title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
-                    ></iframe
-                  ></v-col>
+                    ></iframe>
+                    ></v-col
+                  >
+                </v-row>
+              </v-carousel-item>
+              <v-carousel-item>
+                <v-row>
+                  <v-col cols="12" sm="4" xs="12">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/BCUA6_bsOeE"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                    ></v-col
+                  >
+                  <v-col cols="12" sm="4">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/fBnm_rUTIhk"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
+                  <v-col cols="12" sm="4">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/p0Ki3TpnIVY"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
                 </v-row>
               </v-carousel-item>
               <v-carousel-item>
@@ -276,7 +437,7 @@
                   <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
-                      height="310"
+                      height="315"
                       src="https://www.youtube.com/embed/0cvOc_s67Ko"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -286,13 +447,23 @@
                   <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
-                      height="310"
+                      height="315"
                       src="https://www.youtube.com/embed/__84dO5VYjQ"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe
                   ></v-col>
+                  <v-col cols="12" sm="4">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/JfTZNttAayA"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </v-col>
                 </v-row>
               </v-carousel-item>
               <v-carousel-item>
@@ -300,8 +471,18 @@
                   <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
-                      height="310"
-                      src="https://www.youtube.com/embed/JfTZNttAayA"
+                      height="315"
+                      src="https://www.youtube.com/embed/QyHWVrHFloA"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe
+                  ></v-col>
+                  <v-col cols="12" sm="4">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/NJs_Gd80EBQ"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
@@ -310,13 +491,14 @@
                   <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
-                      height="310"
+                      height="315"
                       src="https://www.youtube.com/embed/QyHWVrHFloA"
+                      title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
-                    ></iframe
-                  ></v-col>
+                    ></iframe>
+                  </v-col>
                 </v-row>
               </v-carousel-item>
               <v-carousel-item>
@@ -324,8 +506,9 @@
                   <v-col cols="12" sm="4">
                     <iframe
                       width="100%"
-                      height="310"
-                      src="https://www.youtube.com/embed/NJs_Gd80EBQ"
+                      height="315"
+                      src="https://www.youtube.com/embed/JO7P-iqe05A"
+                      title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
@@ -366,8 +549,65 @@
         <a href="Learn More">Learn More</a>
       </slide>
     </carousel-3d> -->
+    <section class="project">
+      <h2
+        class="text-h5 text-md-h4 font-weight-light pt-8 grey--text text--darken-3 text-center impact custom__heading-green"
+      >
+        Project Impact
+      </h2>
+      <Hey />
+    </section>
 
-    <Hey />
+    <section class="rice-farm">
+      <div class="rice-farm-wrap-two flex container">
+        <div class="left">
+          <div class="image-grid">
+            <div class="image-row">
+              <div class="image image-05">
+                <iframe
+                  width="100%"
+                  height="250"
+                  src="https://www.youtube.com/embed/ZqjI2TZIQ1k"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <!-- <div class="image image-03"></div> -->
+            </div>
+            <div class="image-row">
+              <div class="image image-04"></div>
+              <div class="image image-01"></div>
+              <div class="image image-02"></div>
+            </div>
+            <div class="image-row">
+              <!-- <div class="image image-06"></div> -->
+              <!-- <div class="image image-07"></div> -->
+              <!-- <div class="image image-08"></div>
+              <div class="image image-09"></div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-8 grey--text text--darken-3"
+          >
+            Agrolog Rice Farm
+          </h2>
+          <p>
+            Our rice farm covers a collective land area of over 1,000 hectares
+            across Kaduna and Benue states. As food scarcity grows throughout
+            the continent as a result of insecurity, Covid 19, Farmer/Herders
+            clash and poverty, we have taken the initiative to expand our rice
+            farms to produce more food for the growing population.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- <div>
       <VueSlickCarousel v-bind="settings">
         <div>1</div>
@@ -380,12 +620,12 @@
     <section class="grey lighten-4">
       <v-card tile outlined color="white">
         <h2
-          class="text-h5 text-md-h4 font-weight-light pt-2 grey--text text--darken-3 text-center custom__heading-green"
+          class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-center custom__heading-green"
         >
           EMPOWERING AFRICA TO FEED THE FUTURE
         </h2>
         <v-card-text>
-          <v-row>
+          <v-row class="container">
             <v-col cols="12" sm="6" class="pt-0">
               <div
                 class="text-center mt-0 pt-0 mt-sm-16 text-body-1 text-md-h6 font-weight-light"
@@ -418,7 +658,7 @@
           OUR SERVICES
         </h2>
         <v-card-text>
-          <v-row>
+          <v-row class="container">
             <v-col cols="12" sm="6">
               <!-- <v-img
                 height="300"
@@ -456,12 +696,12 @@
     <section class="grey lighten-4">
       <v-card tile outlined color="grey lighten-4">
         <h2
-          class="text-h5 text-md-h4 font-weight-light pt-4 grey--text text--darken-3 text-center custom__heading-green"
+          class="text-h5 text-md-h4 font-weight-light pt-4 mt-5 grey--text text--darken-3 text-center custom__heading-green"
         >
           HOW YOU CAN JOIN US
         </h2>
         <v-card-text>
-          <v-row>
+          <v-row class="container">
             <v-col cols="12" sm="6">
               <div
                 class="text-center mt-16 text-body-1 text-md-h6 font-weight-light"
@@ -512,7 +752,7 @@
           <span class="warning--text font-weight-light">OUR</span> PROJECTIONS
         </h2>
         <v-card-text>
-          <v-row justify="center" align="center">
+          <v-row class="container" justify="center" align="center">
             <v-col cols="10">
               <v-card
                 tile
@@ -569,7 +809,7 @@
     <!-- OUR PARTNERS -->
     <section id="agrolog__partners">
       <div class="white mt-1">
-        <v-row class="pa-2">
+        <v-row class="pa-2 container">
           <v-col
             cols="12"
             sm="4"
@@ -612,8 +852,8 @@
       </div>
     </section>
     <!-- FOOTER -->
-    <v-footer dark padless>
-      <v-card flat tile class="grey darken-3 white--text text-center">
+    <v-footer dark padless class="grey darken-3 white--text text-center">
+      <v-card flat tile class="grey darken-3 white--text text-center container">
         <v-card-text>
           <v-btn
             v-for="item in footerItems"
@@ -724,6 +964,44 @@ export default {
 </script>
 
 <style lang="scss">
+.v-carousel__controls {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  bottom: -40px;
+  display: none;
+  height: 50px;
+  justify-content: center;
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.mdi:before,
+.mdi-set {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  // background: green;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.v-btn--icon.v-size--default .v-icon,
+.v-btn--fab.v-size--default .v-icon {
+  height: 24px;
+  font-size: 24px;
+  width: 24px;
+  color: white;
+}
+.impact {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #424242 !important;
+  caret-color: #424242 !important;
+  font-weight: 300;
+}
+
 // .carousel-3d-container figcaption {
 //   position: absolute;
 //   background-color: rgba(0, 0, 0, 0.5);
@@ -826,7 +1104,7 @@ export default {
   background-color: #009432;
   content: " ";
   margin: 0 auto;
-  margin-top: 20px;
+  // margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -906,5 +1184,364 @@ export default {
 .slide-fade-leave-to {
   transform: translateX(1000px);
   opacity: 0;
+}
+
+.services {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services .services-wrap {
+  text-align: center;
+}
+.services .services-wrap h2 {
+  position: relative;
+  line-height: 0px;
+  /* font-size: clamp(1rem, 2rem, 3.5rem); */
+  font-size: var(--h1-font-size);
+  font-style: normal;
+  text-align: center;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  margin: 1.5rem auto;
+  font-weight: 500;
+  /* max-width: 200px; */
+  /* color: #fff; */
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #424242 !important;
+  caret-color: #424242 !important;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+
+.services .services-wrap h2::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background-color: #009432;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  margin-top: 1rem;
+}
+.services .services-wrap p.lead {
+  /* line-height: 30.2px; */
+  /* font-size: clamp(0.75rem, 1.2rem, 2rem); */
+  font-size: var(--h3-font-size);
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+}
+
+.services .services-wrap .services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  place-items: center;
+  /* padding: 1rem; */
+}
+.services .services-wrap .services-cards .carddd {
+  /* position: relative;
+  left: -300px; */
+  /* background-color: #e4e4e4; */
+  background-color: #ffff;
+  color: var(--text-color);
+  padding: 1rem;
+  border: 2px solid rgba(77, 77, 77, 0.18);
+  min-height: 400px;
+  min-width: 270px;
+  box-shadow: 2px 10px 10px rgba(197, 190, 190, 0.97);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  cursor: pointer;
+  /* opacity: 0.25 !important; */
+}
+
+.services .services-wrap .services-cards .carddd:hover {
+  transform: scale(1.1) !important;
+}
+
+.services .services-wrap .services-cards i {
+  /* color: #ab042c; */
+  margin: 0.75rem 0;
+  color: #009432;
+}
+.services .services-wrap .services-cards h4 {
+  /* margin: 0.75rem 0; */
+  font-weight: 700;
+  font-size: clamp(--h2-font-size);
+  font-style: normal;
+  line-height: 20.6px;
+}
+.services .services-wrap .services-cards p {
+  margin: 1rem 0;
+  /* margin: 0.75rem 0; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(--h3-font-size);
+  text-align: center;
+  height: 100px;
+}
+
+.rice-farm-wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  // place-items: center;
+  align-items: center;
+}
+
+.rice-farm-wrap-two {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  // place-items: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .rice-farm-wrap-two {
+    // display: grid;
+    // grid-template-columns: 1fr;
+    gap: 2rem;
+    // place-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rice-farm-wrap-two .left {
+    order: 1;
+    width: 100%;
+  }
+  .rice-farm-wrap-two .right {
+    order: 2;
+    text-align: center;
+  }
+  .rice-farm-wrap .left {
+    order: 1;
+    text-align: center;
+  }
+  .rice-farm-wrap .right {
+    order: 2;
+    text-align: center;
+  }
+
+  .rice-farm-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    // place-items: center;
+  }
+}
+
+.rice-farm-wrap h2::after,
+.rice-farm-wrap-two h2::after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #009432;
+  content: " ";
+  margin: 0 auto;
+  // margin-top: 10px;
+  margin-bottom: 30px;
+  position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+}
+.rice-farm-wrap h2,
+.rice-farm-wrap-two h2 {
+  margin: 1rem auto;
+  font-weight: 500;
+  /* max-width: 200px; */
+  /* color: #fff; */
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #424242 !important;
+  caret-color: #424242 !important;
+  font-weight: 300;
+  // padding-bottom: 1rem;
+}
+
+.image-grid {
+  // padding: 12px;
+}
+.image-grid img {
+  object-fit: cover !important;
+  width: 100%;
+}
+.image-grid img:hover {
+  transform: scale(1.1);
+  transition: 0.45s ease-in-out;
+  cursor: pointer;
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row .image {
+  margin: 12px;
+  height: 240px;
+}
+.image-row .image:hover {
+  transform: scale(1.1);
+  transition: 0.45s ease-in-out;
+  cursor: pointer;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  // box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.15),
+  //   0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.image-01 {
+  background-image: url("../assets/BenueRice3.jpg");
+  flex: 1;
+}
+
+.image-02 {
+  background-image: url("../assets/BenueRice4.jpg");
+  flex: 1;
+}
+
+.image-03 {
+  background-image: url("../assets/BenueRice5.jpg");
+  flex: 1;
+}
+
+.image-04 {
+  background-image: url("../assets/BenueRice6.jpg");
+  flex: 1;
+}
+
+.image-05 {
+  // background-image: url("../assets/rice4.jpg");
+  flex: 3;
+}
+
+// .image-06 {
+//   background-image: url("../assets/rice5.jpg");
+//   flex: 2;
+// }
+
+.image-07 {
+  background-image: url("../assets/BenueRice7.jpg");
+  flex: 3;
+}
+
+// .image-08 {
+//   background-image: url("../assets/rice7.jpg");
+//   flex: 3;
+// }
+
+// .image-09 {
+//   background-image: url("../assets/rice10.jpg");
+//   flex: 1;
+// }
+.rice-farm-wrap .image-grid {
+  // padding: 12px;
+}
+.rice-farm-wrap .image-grid img {
+  object-fit: contain !important;
+  width: 100%;
+  height: 100%;
+}
+.rice-farm-wrap .image-grid img:hover {
+  transform: scale(1.1);
+  transition: 0.45s ease-in-out;
+  cursor: pointer;
+}
+
+.rice-farm-wrap .image-row {
+  display: flex;
+}
+
+.rice-farm-wrap .image-row .image {
+  margin: 12px;
+  height: 240px;
+}
+.rice-farm-wrap .image-row .image:hover {
+  transform: scale(1.1);
+  transition: 0.45s ease-in-out;
+  cursor: pointer;
+}
+
+.rice-farm-wrap .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  // box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.15),
+  //   0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.rice-farm-wrap .image-01 {
+  background-image: url("../assets/Manzo3.png");
+  flex: 3;
+}
+
+.rice-farm-wrap .image-02 {
+  background-image: url("../assets/Manzo33.png");
+  flex: 2;
+}
+
+.rice-farm-wrap .image-03 {
+  background-image: url("../assets/manzo333.png");
+  flex: 2;
+}
+
+.rice-farm-wrap .image-04 {
+  background-image: url("../assets/HungaroSeed.png");
+  flex: 2;
+}
+
+.rice-farm-wrap .image-05 {
+  background-image: url("../assets/Tetra.png");
+  flex: 2;
+}
+
+.image-06 {
+  background-image: url("../assets/Alphavet.png");
+  flex: 3;
+}
+
+.rice-farm-wrap .image-07 {
+  background-image: url("../assets/BenueRice7.jpg");
+  flex: 2;
+}
+
+// .image-08 {
+//   background-image: url("../assets/rice7.jpg");
+//   flex: 3;
+// }
+
+// .image-09 {
+//   background-image: url("../assets/rice10.jpg");
+//   flex: 1;
+// }
+
+@media screen and (max-width: 600px) {
+  .image-row {
+    flex-direction: column;
+  }
+  .image-01 {
+    background-image: url("../assets/rice1.jpg");
+    flex: 2;
+  }
+
+  .image-row .image {
+    flex-basis: auto;
+  }
+
+  .rice-farm-wrap {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

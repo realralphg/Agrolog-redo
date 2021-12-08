@@ -2,87 +2,160 @@
   <VueSlickCarousel v-bind="settings" class="container">
     <div class="card">
       <figure class="carousel-img">
-        <img
-          src="https://media.istockphoto.com/photos/tractor-spraying-soybean-field-picture-id506164764?b=1&k=20&m=506164764&s=170667a&w=0&h=Jape5dTdB-8HNjQFjc6aJODc_XQTqTwxGN4j0-j-Icg="
-        />
+        <img src="../assets/DryingTent.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
           </figcaption> -->
       </figure>
-      <h4>Lorem, ipsum dolor.</h4>
+      <h4>Drying Tents</h4>
       <!-- <figcaption>
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        ratione pariatur, harum mollitia quisquam et doloremque unde
-        necessitatibus blanditiis?
+        Agrolog has acquired several Drying Tents in various service centers to
+        enhance efficient ginger processing after harvest. This is a key aspect
+        of the ginger value chain that the communities are happy to learn about.
       </p>
-      <a href="Learn More">Read More</a>
+      <!-- <a href="Learn More">Read More</a> -->
     </div>
     <div class="card">
       <figure class="carousel-img">
-        <img
-          src="https://media.istockphoto.com/photos/tractor-spraying-soybean-field-picture-id506164764?b=1&k=20&m=506164764&s=170667a&w=0&h=Jape5dTdB-8HNjQFjc6aJODc_XQTqTwxGN4j0-j-Icg="
-        />
+        <img src="../assets/farmss.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
           </figcaption> -->
       </figure>
-      <h4>Lorem, ipsum dolor.</h4>
+      <h4>Distribution of Farm Inputs</h4>
       <!-- <figcaption>
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        ratione pariatur, harum mollitia quisquam et doloremque unde
-        necessitatibus blanditiis?
+        The Agrolog/Mastercard partners provide farmers the opportunity to
+        access quality farm inputs such as bags of ginger seeds, fertilizer,
+        Aflasafe, herbicides, paracot, lifeline etc
       </p>
-      <a href="Learn More">Read More</a>
+      <!-- <a href="Learn More">Read More</a> -->
     </div>
     <div class="card">
       <figure class="carousel-img">
-        <img
-          src="https://media.istockphoto.com/photos/tractor-spraying-soybean-field-picture-id506164764?b=1&k=20&m=506164764&s=170667a&w=0&h=Jape5dTdB-8HNjQFjc6aJODc_XQTqTwxGN4j0-j-Icg="
-        />
+        <img src="../assets/farm2.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
           </figcaption> -->
       </figure>
-      <h4>Lorem, ipsum dolor.</h4>
+      <h4>
+        Farm Inputs
+      </h4>
       <!-- <figcaption>
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        ratione pariatur, harum mollitia quisquam et doloremque unde
-        necessitatibus blanditiis?
+        Happy farmers cart away inputs to their farms just in time to apply them
+        according to training instructions from expert trainers
       </p>
-      <a href="Learn More">Read More</a>
+      <!-- <a href="Learn More">Read More</a> -->
     </div>
     <div class="card">
       <figure class="carousel-img">
-        <img
-          src="https://media.istockphoto.com/photos/tractor-spraying-soybean-field-picture-id506164764?b=1&k=20&m=506164764&s=170667a&w=0&h=Jape5dTdB-8HNjQFjc6aJODc_XQTqTwxGN4j0-j-Icg="
-        />
+        <img src="../assets/mech1.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
           </figcaption> -->
       </figure>
-      <h4>Lorem, ipsum dolor.</h4>
+      <h4>Mechanization of Ginger Farming</h4>
       <!-- <figcaption>
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia
-        ratione pariatur, harum mollitia quisquam et doloremque unde
-        necessitatibus blanditiis?
+        Agrolog doubles down on mechanization and illustrate the need for
+        mechanization in modern farming. The villagers are happy to learn
+        something new.
       </p>
-      <a href="Learn More">Read More</a>
+      <!-- <a href="Learn More">Read More</a> -->
+    </div>
+    <div class="card">
+      <figure class="carousel-img">
+        <img src="../assets/mech2.jpg" />
+
+        <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+      </figure>
+      <h4>Mechanization at its Peak</h4>
+      <!-- <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption> -->
+      <p>
+        As more farmers begin to learn and use tractors in their farm, they soon
+        realize the difference. They are able to cover more work in less time.
+        Now they happily expect a bumper harvest like they have never seen
+        before.
+      </p>
+      <!-- <a href="Learn More">Read More</a> -->
+    </div>
+    <div class="card">
+      <figure class="carousel-img">
+        <img src="../assets/womene.jpg" />
+
+        <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+      </figure>
+      <h4>High Women Engagement</h4>
+      <!-- <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption> -->
+      <p>
+        The ratio of women to youth in the Agrolog/Mastercard Ginger Value Chain
+        Project is 70/30. This is so because of the marginalization of women in
+        the most rural communities. The sensitization has helped communities
+        leaders appreciate this decision.
+      </p>
+      <!-- <a href="Learn More">Read More</a> -->
+    </div>
+    <div class="card">
+      <figure class="carousel-img">
+        <img src="../assets/womenss.jpg" />
+
+        <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+      </figure>
+      <h4>Women Training on Post Harvest Ginger Processing</h4>
+      <!-- <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption> -->
+      <p>
+        After harvest, ginger can be used for several purposes; it could be used
+        as oil, spice, powder, confectionery, paste, drink, medicine etc.
+        Agrolog has repeatedly carried on trainings for women of project
+        communities to take due advantage of this opportunity.
+      </p>
+      <!-- <a href="Learn More">Read More</a> -->
+    </div>
+    <div class="card">
+      <figure class="carousel-img">
+        <img src="../assets/youthss.jpg" />
+
+        <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+      </figure>
+      <h4>Over 500 Youth trained on ICT for Business</h4>
+      <!-- <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption> -->
+      <p>
+        The eventual and inevitable success of the ginger valua chain project
+        will lead to a boom in the economy of Southern Kaduna. Youth in these
+        communities are therefore trained to take their businesses to another
+        level leveraging ICT.
+      </p>
+      <!-- <a href="Learn More">Read More</a> -->
     </div>
   </VueSlickCarousel>
 </template>
@@ -118,7 +191,7 @@ export default {
             },
           },
           {
-            breakpoint: 800,
+            breakpoint: 900,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
@@ -126,7 +199,7 @@ export default {
             },
           },
           {
-            breakpoint: 500,
+            breakpoint: 700,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -150,15 +223,19 @@ export default {
   box-shadow: 2px 10px 10px rgba(197, 190, 190, 0.97);
   background-color: #ffff;
   padding: 2rem;
-  width: 350px !important;
-  height: 450px !important;
+  /* width: 350px !important; */
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  /* height: 450px !important; */
   margin-bottom: 1rem;
   /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); */
   /* margin: 0 1rem; */
 }
 .card img {
-  width: 300px;
+  width: 100%;
+  /* width: 300px; */
   height: 200px;
 }
 .card h4 {
@@ -186,7 +263,7 @@ export default {
 
 .slick-slider[data-v-3d1a4f76] {
   position: relative;
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -290,5 +367,31 @@ export default {
 
 button #value {
   display: none;
+}
+
+@media (max-width: 700px) {
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .slick-slider[data-v-3d1a4f76] {
+    position: relative;
+    /* padding: 1rem; */
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: -30px;
+    display: block;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 </style>
