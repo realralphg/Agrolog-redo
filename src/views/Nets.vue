@@ -98,6 +98,51 @@
         </v-col>
       </v-row>
     </v-container>
+
+    <v-footer dark padless class="grey darken-3 white--text text-center">
+      <v-card flat tile class="grey darken-3 white--text text-center container">
+        <v-card-text>
+          <v-btn
+            v-for="item in footerItems"
+            :key="item.href"
+            class="mx-4 white--text"
+            icon
+            :href="item.href"
+          >
+            <v-icon size="24px">
+              {{ item.icon }}
+            </v-icon>
+          </v-btn>
+        </v-card-text>
+        <v-card-text
+          class="white--text pt-0 text-body-2 text-sm-body-1 font-weight-light"
+        >
+          Agrolog Limited (RC 1527119) is a newly established agribusiness
+          company specialized in production and trade of agricultural
+          commodities, agrologistics, various agricultural investment and farm
+          management. Innovations that assure the delivery of wholesome food to
+          consumers constitute the value proposition which AgroLog brings to its
+          clients.
+        </v-card-text>
+        <div
+          class="text-center white--text pt-0 text-body-2 text-sm-body-1 font-weight-bold"
+        >
+          <span>Head Office: 31, Gwari Avenue Barnawa Kaduna Nigeria</span>
+        </div>
+        <v-divider></v-divider>
+
+        <v-card-text class="white--text body-1">
+          {{ new Date().getFullYear() }} —
+          <strong class="success--text mr-4">Agrolog</strong>
+          <span>
+            <v-btn small outlined href="https://agrolog.farm:2096/">
+              <v-icon class="mr-1">mdi-email</v-icon>
+              <span class="text-capitalize">Check Mail</span>
+            </v-btn>
+          </span>
+        </v-card-text>
+      </v-card>
+    </v-footer>
   </div>
 </template>
 
@@ -105,32 +150,32 @@
 export default {
   data: () => ({
     partners: [
-      { name: 'Commodity Cooperatives consortium' },
-      { name: 'Soya bean Farmers Association' },
-      { name: 'Gurara Ginger Association' },
-      { name: 'Kaduna State Cooperatives Federation' },
-      { name: 'Rice Farmers Association' },
-      { name: 'Groundnut Farmers Association' },
-      { name: 'Sorghum Farmers Association' },
-      { name: 'Tumeric Farmers Association' },
-      { name: 'Fisheries Society of Nigeria' },
-      { name: 'Nigerian Agro Allied Farmers Association' },
-      { name: 'Cattle Breeders Association of Nigeria' },
-      { name: 'Poultry Association of Nigeria' },
+      { name: "Commodity Cooperatives consortium" },
+      { name: "Soya bean Farmers Association" },
+      { name: "Gurara Ginger Association" },
+      { name: "Kaduna State Cooperatives Federation" },
+      { name: "Rice Farmers Association" },
+      { name: "Groundnut Farmers Association" },
+      { name: "Sorghum Farmers Association" },
+      { name: "Tumeric Farmers Association" },
+      { name: "Fisheries Society of Nigeria" },
+      { name: "Nigerian Agro Allied Farmers Association" },
+      { name: "Cattle Breeders Association of Nigeria" },
+      { name: "Poultry Association of Nigeria" },
     ],
   }),
-}
+};
 </script>
 
 <style lang="scss">
 .custom__card {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   -webkit-background: linear-gradient(
       rgba(0, 148, 50, 0.9),
       rgba(0, 148, 146, 0.7)
     ),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   background-size: cover;
   //   background-attachment: fixed;
   height: 150px;
@@ -143,7 +188,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #009432;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -154,7 +199,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #f9952d;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -165,7 +210,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #ffffff;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;

@@ -1,7 +1,7 @@
 <template>
   <!-- #009432 -->
   <div>
-    <v-app-bar app elevation="0" color="white" class="navbar">
+    <v-app-bar app elevation="0" color="white" class="navbar ">
       <v-app-bar-nav-icon
         class="hidden-md-and-up"
         color="warning"
@@ -63,17 +63,19 @@
         >
           <span class="mb-n2 mt-1 text-capitalize caption">Contact Us</span>
         </v-tab>
+        <v-tab>
+          <v-btn
+            small
+            depressed
+            color="warning"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdkINs4WMlK4bSQ6bljdtKzHVBIpvYVNUXRK_9PFs5XKIsFgA/viewform"
+            >Register</v-btn
+          >
+        </v-tab>
+        <div class="d-flex justify-center align-center">
+          <!-- <v-btn small outlined color="success" class="mr-4">Sign in</v-btn> -->
+        </div>
       </v-tabs>
-      <div class="d-flex justify-center align-center">
-        <!-- <v-btn small outlined color="success" class="mr-4">Sign in</v-btn> -->
-        <v-btn
-          small
-          depressed
-          color="warning"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdkINs4WMlK4bSQ6bljdtKzHVBIpvYVNUXRK_9PFs5XKIsFgA/viewform"
-          >Register</v-btn
-        >
-      </div>
     </v-app-bar>
 
     <v-navigation-drawer app v-model="drawer" temporary>
@@ -105,15 +107,15 @@ export default {
     icons: [],
     drawer: false,
     navItems: [
-      { name: 'About Us', route: '/about' },
-      { name: 'Our Activities', route: '/activity' },
-      { name: 'Our Business Partners', route: '/partner' },
-      { name: 'Social Safety Nets', route: '/net' },
-      { name: 'Contact Us', route: '/contact' },
+      { name: "About Us", route: "/about" },
+      { name: "Our Activities", route: "/activity" },
+      { name: "Our Business Partners", route: "/partner" },
+      { name: "Social Safety Nets", route: "/net" },
+      { name: "Contact Us", route: "/contact" },
     ],
   }),
   methods: {},
-}
+};
 </script>
 
 <style lang="scss">

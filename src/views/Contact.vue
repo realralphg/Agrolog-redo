@@ -6,7 +6,7 @@
           <v-card outlined tile class="custom__card">
             <h2 class="text-center text-h2 mt-12 white--text font-weight-thin">
               Contact
-              <span class="warning--text font-weight-light">US</span>
+              <span class="warning--text font-weight-light">Us</span>
             </h2>
           </v-card>
         </v-col>
@@ -145,25 +145,69 @@
         </v-snackbar>
       </div>
     </v-container>
+    <v-footer dark padless>
+      <v-card flat tile class="grey darken-3 white--text text-center">
+        <v-card-text>
+          <v-btn
+            v-for="item in footerItems"
+            :key="item.href"
+            class="mx-4 white--text"
+            icon
+            :href="item.href"
+          >
+            <v-icon size="24px">
+              {{ item.icon }}
+            </v-icon>
+          </v-btn>
+        </v-card-text>
+        <v-card-text
+          class="white--text pt-0 text-body-2 text-sm-body-1 font-weight-light"
+        >
+          Agrolog Limited (RC 1527119) is a newly established agribusiness
+          company specialized in production and trade of agricultural
+          commodities, agrologistics, various agricultural investment and farm
+          management. Innovations that assure the delivery of wholesome food to
+          consumers constitute the value proposition which AgroLog brings to its
+          clients.
+        </v-card-text>
+        <div
+          class="text-center white--text pt-0 text-body-2 text-sm-body-1 font-weight-bold"
+        >
+          <span>Head Office: 31, Gwari Avenue Barnawa Kaduna Nigeria</span>
+        </div>
+        <v-divider></v-divider>
+
+        <v-card-text class="white--text body-1">
+          {{ new Date().getFullYear() }} —
+          <strong class="success--text mr-4">Agrolog</strong>
+          <span>
+            <v-btn small outlined href="https://agrolog.farm:2096/">
+              <v-icon class="mr-1">mdi-email</v-icon>
+              <span class="text-capitalize">Check Mail</span>
+            </v-btn>
+          </span>
+        </v-card-text>
+      </v-card>
+    </v-footer>
   </div>
 </template>
 
 <script>
 export default {
   data: () => ({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
     loading: false,
     disabled: false,
     snackbar: false,
     snackbar1: false,
     rules: {
-      required: (v) => !!v || 'Field is required',
-      counter: (v) => (v && v.length >= 3) || 'Minimum length is 3 characters',
+      required: (v) => !!v || "Field is required",
+      counter: (v) => (v && v.length >= 3) || "Minimum length is 3 characters",
       email: (value) => {
-        const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        return pattern.test(value) || 'Invalid e-mail.'
+        const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return pattern.test(value) || "Invalid e-mail.";
       },
     },
   }),
@@ -173,49 +217,49 @@ export default {
         name: this.name,
         email: this.email,
         message: this.message,
-      }
-      console.log('Contact', JSON.stringify(contact))
+      };
+      console.log("Contact", JSON.stringify(contact));
       if (this.$refs.form.validate()) {
-        this.disabled = true
-        this.loading = true
-        fetch('https://agrolog.herokuapp.com/api/v1/contact/', {
-          method: 'POST',
+        this.disabled = true;
+        this.loading = true;
+        fetch("https://agrolog.herokuapp.com/api/v1/contact/", {
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body: JSON.stringify(contact),
         })
           .then((response) => response.json())
           .then((data) => {
-            this.disabled = false
-            this.loading = false
-            console.log('Data>>>', data)
-            this.snackbar = true
+            this.disabled = false;
+            this.loading = false;
+            console.log("Data>>>", data);
+            this.snackbar = true;
             setTimeout(() => {
-              this.$router.push('/')
-            }, 2000)
+              this.$router.push("/");
+            }, 2000);
           })
           .catch((err) => {
-            this.disabled = false
-            this.loading = false
-            this.snackbar1 = true
-            console.log('Error>>>', err)
-          })
+            this.disabled = false;
+            this.loading = false;
+            this.snackbar1 = true;
+            console.log("Error>>>", err);
+          });
       }
     },
   },
-}
+};
 </script>
 
 <style lang="scss">
 .custom__card {
   background: linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   -webkit-background: linear-gradient(
       rgba(0, 148, 50, 0.9),
       rgba(0, 148, 146, 0.7)
     ),
-    url('../assets/ginger.jpeg');
+    url("../assets/ginger.jpeg");
   background-size: cover;
   //   background-attachment: fixed;
   height: 150px;
@@ -226,7 +270,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #009432;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -237,7 +281,7 @@ export default {
   height: 2px;
   width: 100px;
   background-color: #f9952d;
-  content: ' ';
+  content: " ";
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 30px;
