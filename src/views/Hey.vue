@@ -14,8 +14,9 @@
         </figcaption> -->
       <p>
         Agrolog has acquired several Drying Tents in various service centers to
-        enhance efficient ginger processing after harvest. This is a key aspect
-        of the ginger value chain that the communities are happy to learn about.
+        enhance efficient ginger processing after harvest. This is a key area
+        in the Ginger Value Chain that the farmers in project communities are eager 
+        to learn about.
       </p>
       <!-- <a href="Learn More">Read More</a> -->
     </div>
@@ -47,20 +48,22 @@
           </figcaption> -->
       </figure>
       <h4>
-        Farm Inputs
+        Distribution of Farm Inputs
       </h4>
       <!-- <figcaption>
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
         Happy farmers cart away inputs to their farms just in time to apply them
-        according to training instructions from expert trainers
+        according to training instructions from expert trainers and instructors.
+         These farmers are supervised by extension workers who ensure that farmers 
+         carryout best practices as taught.
       </p>
       <!-- <a href="Learn More">Read More</a> -->
     </div>
     <div class="card">
       <figure class="carousel-img">
-        <img src="../assets/mech1.jpg" />
+        <img src="../assets/mech2.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
@@ -72,14 +75,14 @@
         </figcaption> -->
       <p>
         Agrolog doubles down on mechanization and illustrate the need for
-        mechanization in modern farming. The villagers are happy to learn
-        something new.
+        mechanization in modern farming. The villagers are excited to learn
+        something new; to farm with machines.
       </p>
       <!-- <a href="Learn More">Read More</a> -->
     </div>
     <div class="card">
       <figure class="carousel-img">
-        <img src="../assets/mech2.jpg" />
+        <img src="../assets/mech1.jpg" />
 
         <!-- <figcaption>
             <v-btn text color="white">{{ slide.text }}</v-btn>
@@ -112,8 +115,8 @@
       <p>
         The ratio of women to youth in the Agrolog/Mastercard Ginger Value Chain
         Project is 70/30. This is so because of the marginalization of women in
-        the most rural communities. The sensitization has helped communities
-        leaders appreciate this decision.
+        the most rural communities. Appropriate sensitization during the initiation phase 
+        has helped community leaders appreciate this decision.
       </p>
       <!-- <a href="Learn More">Read More</a> -->
     </div>
@@ -132,7 +135,7 @@
       <p>
         After harvest, ginger can be used for several purposes; it could be used
         as oil, spice, powder, confectionery, paste, drink, medicine etc.
-        Agrolog has repeatedly carried on trainings for women of project
+        Agrolog has repeatedly carried out trainings for women of project
         communities to take due advantage of this opportunity.
       </p>
       <!-- <a href="Learn More">Read More</a> -->
@@ -150,7 +153,7 @@
           <v-btn text color="white">{{ slide.text }}</v-btn>
         </figcaption> -->
       <p>
-        The eventual and inevitable success of the ginger valua chain project
+        The eventual and inevitable success of the Ginger Value Chain project
         will lead to a boom in the economy of Southern Kaduna. Youth in these
         communities are therefore trained to take their businesses to another
         level leveraging ICT.

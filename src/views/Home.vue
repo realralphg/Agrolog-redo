@@ -599,11 +599,21 @@
           </h2>
           <p>
             Our rice farm covers a collective land area of over 1,000 hectares
-            across Kaduna and Benue states. As food scarcity grows throughout
+            across Kaduna and Benue states. As food scarcity increases throughout
             the continent as a result of insecurity, Covid 19, Farmer/Herders
-            clash and poverty, we have taken the initiative to expand our rice
-            farms to produce more food for the growing population.
+            clash and poverty, we have taken the initiative to also increase our rice
+            production to produce more food for our growing population.
           </p>
+
+          <p>
+            In the past decade, rice consumption has been on a steady increase which reached
+             4.7% as at 2017. Rice is one of the most consumed staples in Nigeria, with a 
+             consumption per capita of 32kg, also accounting for 20% of Africa's total consumption. 
+             In 2011, rice accounted for 10% of household food expenditure, and 6.6% of total 
+             household spending. Given the importance of rice as a staple food in Nigeria, boosting 
+             its production is of paramount importance to Agrolog and we plan to increase its production 
+             in the year 2022.
+          </p>        
         </div>
       </div>
     </section>
