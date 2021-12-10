@@ -880,7 +880,7 @@
         <v-card-text
           class="white--text pt-0 text-body-2 text-sm-body-1 font-weight-light"
         >
-          Agrolog Limited (RC 1527119) is a newly established agribusiness
+          Agrolog Limited (RC 1527119) is a registered agribusiness
           company specialized in production and trade of agricultural
           commodities, agrologistics, various agricultural investment and farm
           management. Innovations that assure the delivery of wholesome food to
