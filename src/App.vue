@@ -39,4 +39,25 @@ export default {
   transform: translateX(1000px);
   opacity: 0;
 }
+
+.container{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media(max-width: 500px){
+
+.slick-slider[data-v-3d1a4f76] {
+  position: relative;
+  padding: 0 !important;
+
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+}
+
+
 </style>

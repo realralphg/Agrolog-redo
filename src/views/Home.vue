@@ -28,7 +28,8 @@
                   depressed
                   large
                   color="white success--text"
-                  class="mr-4"
+                  class="mr-4 btny"
+                  
                 >
                   EXPLORE
                 </v-btn>
@@ -55,7 +56,6 @@
           outlined
           tile
           min-height="500px"
-          color="white"
           data-aos="fade-up"
         >
           <h2
@@ -155,7 +155,7 @@
             <i class="fas fa-warehouse fa-3x"></i>
 
             <!-- <h4>GreyTech</h4> -->
-            <p>
+            <p >
               We operate a Ginger Hub at Kachia in Kaduna state where produce is
               evaluated, graded, branded for the market as well as for value
               addition. On the forward integration front we work with partner
@@ -183,7 +183,7 @@
             <i class="fas fa-chart-pie fa-3x"></i>
 
             <!-- <h4>GreyFund</h4> -->
-            <p>
+            <p >
               The core of that tradition being aflatoxin free, quality produce
               that meets global best practices and standards. The overarching
               goal is create an enterprise in farming for these smallholder
@@ -203,7 +203,7 @@
           >
             Global Reach
           </h2>
-          <p>
+          <p  class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light ">
             To keep the pace on meeting international standards on best farming
             practices with a view to farming optimally, we strive to partner and
             collaborate with global players of the highest competence in the
@@ -232,6 +232,75 @@
               <div class="image image-09"></div>
             </div> -->
           </div>
+        </div>
+      </div>
+    </section>
+
+     <section class="social-resp">
+      <div class="wrapper flexer container">
+        <div class="left">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/gLtJTtKNTvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        </div>
+        <div class="right px-5">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-left custom__heading-left"
+          >
+            AGROLOG'S CORPORATE SOCIAL RESPONSIBILITY
+          </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light "
+          >
+
+          <p> As part of its Corporate Social Responsibility (CSR), Agrolog has embarked on a mission to cater for over 10,000 Internally Displaced Persons (IDPs) in Kaduna state, Nigeria. Farmers/Herders clash, insurgency and kidnappings are some of the reasons for the displacement of community inhabitants and in response to the unfortunate situation, Agrolog, in February, 2022 provided; food stuff such as <span v-if="readMore"></span><span v-else>...</span><span v-show="readMore">maize, rice, beans, soy beans, palm oil, salt and seasoning as well as medication, sanitary pads, soaps and detergents for these IDPs across several local governments costing about 20 Million Naira. There are further plans to provide skill acquisition, empowerment programs and hopefully resettlement for the displaced which is totally in line with Agrolog’s overall vision of lifting the rural poor out of poverty and transforming them into the engine of economic prosperity.</span><v-btn @click="readMore =! readMore"
+                  color="success"
+                  small
+                  plain
+                  ><span v-if="readMore">Show Less</span>
+              <span v-else>Show More</span></v-btn></p>
+
+            
+             
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="social-resp">
+      <div class="wrapper container">
+        
+        <div class="right">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-left custom__heading-left"
+          >
+           THE AGROLOG - IDH PROJECT
+          </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light"
+          >
+
+          <p> Agrolog and IDH collaborates with a view to lifting small holder ginger farmers another step higher in the ginger value chain business. As a result of Agrolog’s prior initiatives, ginger farmers in Kaduna, Nigeria have gained visibility in terms of best ginger farming practices through mechanization for improved yield and production of quality aflatoxin-free ginger for global markets. Today the IDH partnership presents an objective whose aim is to; facilitate access to credit facilities and quality inputs by Small Holder Farmers, introduce more eco-friendly practices, facilitate certification for export of produce<span v-if="readMore"></span><span v-else>...</span><span v-show="readMore"> initiate trade and broker partnership with off-takers, make investment linkages and trade relations with both local and international partners, introduce technologies for value chain sustainability, facilitate block-chain farming/supply business model, provide training support and benchmark for standardized international best practices.</span><v-btn @click="readMore =! readMore"
+                  color="success"
+                  small
+                  plain
+                  ><span v-if="readMore">Show Less</span>
+              <span v-else>Show More</span></v-btn></p>
+
+            
+             
+          </div>
+
+
+        </div>
+
+        <div class="left lefty">
+         <img class="smaller" src="../assets/dr1.jpg" alt="">
+         <div class="twos">
+           <img src="../assets/dr2.jpg" alt="">
+           <img src="../assets/dr3.jpg" alt="">
+
+         </div>
         </div>
       </div>
     </section>
@@ -558,6 +627,102 @@
       <Hey />
     </section>
 
+    <section class="social-resp">
+      <div class="wrapper container">
+        
+        <div class="right">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-left custom__heading-left"
+          >
+           STERLING BANK SUPPORTS AGROLOG FARMERS WITH CREDIT FACILITIES
+          </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light"
+          >
+
+          <p> As farmers rejoice at the new dawn of a prosperous ginger value chain business resulting from the mastery of best ginger farming practices introduced by Agrolog, Sterling Bank offers a strong arm to Agrolog’s registered small holder ginger farmers with successful track record of ginger farming. A single digit interest loan for farmers to farm even more<span v-if="readMore"></span><span v-else>...</span><span v-show="readMore"> ginger for a larger market.This initiative positions farmers for independence, especially as most of these farmers through Agrolog’s initiatives are now financially inclusive..</span><v-btn @click="readMore =! readMore"
+                  color="success"
+                  small
+                  plain
+                  ><span v-if="readMore">Show Less</span>
+              <span v-else>Show More</span></v-btn></p>
+
+            
+             
+          </div>
+
+
+        </div>
+
+        <div class="left">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/LN10nsX5SW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        </div>
+      </div>
+    </section>
+
+    <section class="social-resp">
+      <div class="wrapper flexer container">
+
+        <div class="left">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/cH9XhLclaxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="right px-5">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-left custom__heading-left"
+          >AGROLOG'S GINGER IS AFLATOXIN FREE
+          </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light"
+          >
+
+          <p>A major impediment faced by farmers whose desire is to farm for the global community is the presence of aflatoxin in their crops. Agrolog in partnership with Harvestfield has introduced Aflasafe to ginger farming. This solution, drastically reduces if not eliminates the presence of Aflatoxin in Agrolog’s ginger. Today Agrolog ginger farmers boast to farm for the European market and the rest of the world.</p>
+
+            
+             
+          </div>
+
+
+        </div>
+
+        
+      </div>
+    </section>
+
+    <section class="social-resp">
+      <div class="wrapper container">
+
+        
+        
+        <div class="right">
+          <h2
+            class="text-h5 text-md-h4 font-weight-light pt-2 mt-5 grey--text text--darken-3 text-left custom__heading-left"
+          >MECHANIZATION ACROSS THE GINGER VALUE CHAIN
+          </h2>
+          <div
+            class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light"
+          >
+
+          <p>At Agrolog, we believe that there is an untapped abundance in ginger farming and that farmers must unlearn most of the traditional methods of farming ginger and embrace best practices for better and improved yield. This is why we invest immensely on farmers’ training, monitoring and supervision not just during planting, growing and harvesting seasons but also during processing. Farmers are welcome to learn mechanized ginger processing skills at our Service Centers located across 12 Local Government Areas in Kaduna State.</p>
+
+            
+             
+          </div>
+
+
+        </div>
+
+        <div class="left px-2">
+         <iframe width="100%" height="315" src="https://www.youtube.com/embed/CQAWZAUlvfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        
+      </div>
+    </section>
+    
+
+   
+
     <section class="rice-farm">
       <div class="rice-farm-wrap-two flex container">
         <div class="left">
@@ -597,23 +762,29 @@
           >
             Agrolog Rice Farm
           </h2>
-          <p>
-            Our rice farm covers a collective land area of over 1,000 hectares
+
+           <p class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light"> Our rice farm covers a collective land area of over 1,000 hectares
             across Kaduna and Benue states. As food scarcity increases throughout
             the continent as a result of insecurity, Covid 19, Farmer/Herders
             clash and poverty, we have taken the initiative to also increase our rice
             production to produce more food for our growing population.
-          </p>
-
-          <p>
-            In the past decade, rice consumption has been on a steady increase which reached
+             In the past decade, rice consumption has been on a steady increase which reached
              4.7% as at 2017. Rice is one of the most consumed staples in Nigeria, with a 
-             consumption per capita of 32kg, also accounting for 20% of Africa's total consumption. 
-             In 2011, rice accounted for 10% of household food expenditure, and 6.6% of total 
+             consumption per capita of 32kg, also accounting for 20% of Africa's total consumption
+            <span v-if="readMore"></span><span v-else>...</span><span v-show="readMore"> In 2011, rice accounted for 10% of household food expenditure, and 6.6% of total 
              household spending. Given the importance of rice as a staple food in Nigeria, boosting 
              its production is of paramount importance to Agrolog and we plan to increase its production 
-             in the year 2022.
-          </p>        
+             in the year 2022.</span><v-btn @click="readMore =! readMore"
+                  color="success"
+                  small
+                  plain
+                  ><span v-if="readMore">Show Less</span>
+              <span v-else>Show More</span></v-btn></p>
+          <p class="grey--text text--darken-3 text-body-1 text-md-h6 font-weight-light">
+            
+          </p>
+
+                 
         </div>
       </div>
     </section>
@@ -945,6 +1116,7 @@ export default {
         href: "https://www.instagram.com/agrolog300/",
       },
     ],
+    readMore:false
   }),
 
   components: {
@@ -1118,6 +1290,17 @@ export default {
   margin-bottom: 30px;
 }
 
+.custom__heading-left::after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #009432;
+  content: "";
+  margin: 0 ;
+  // margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 .custom__heading-orange::after {
   display: block;
   height: 2px;
@@ -1226,6 +1409,23 @@ export default {
   padding-bottom: 1rem;
 }
 
+.rice-farm .left h2{
+
+  position: relative;
+}
+
+.rice-farm .left h2::after{
+content: "";
+  position: absolute;
+  width: 90px;
+  height: 2px;
+  background-color: #009432;
+  bottom: -40%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  margin-top: 1rem;
+}
+
 .services .services-wrap h2::after {
   content: "";
   position: absolute;
@@ -1305,7 +1505,9 @@ export default {
   // place-items: center;
   align-items: center;
 }
-
+.rice-farm .left p{
+  font-size: 1.25rem;
+}
 .rice-farm-wrap-two {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -1313,8 +1515,31 @@ export default {
   // place-items: center;
   align-items: center;
 }
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: .5rem;
+  align-items: center;
+}
 
-@media (max-width: 700px) {
+.lefty {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lefty img{
+  width: 100%;
+}
+
+
+
+.lefty .twos {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+}
+@media (max-width: 800px) {
   .rice-farm-wrap-two {
     // display: grid;
     // grid-template-columns: 1fr;
@@ -1324,6 +1549,20 @@ export default {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .wrapper{
+  grid-template-columns:1fr;
+
+}
+
+.flexer{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+
+  
   .rice-farm-wrap-two .left {
     order: 1;
     width: 100%;
@@ -1552,6 +1791,10 @@ export default {
 
   .rice-farm-wrap {
     grid-template-columns: 1fr;
+  }
+
+  .btny{
+    margin: .55rem 0;
   }
 }
 </style>

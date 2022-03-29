@@ -179,9 +179,11 @@ export default {
         slidesToShow: 3,
         slidesToScroll: 3,
         touchThreshold: 5,
+        autoplay: true,
 
         focusOnSelect: true,
         infinite: true,
+        autoplaySpeed:2000,
         speed: 500,
         responsive: [
           {
@@ -229,7 +231,7 @@ export default {
   /* width: 350px !important; */
   width: 100%;
   height: 100%;
-  min-height: 500px;
+  min-height: 560px;
   /* height: 450px !important; */
   margin-bottom: 1rem;
   /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
