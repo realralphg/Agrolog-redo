@@ -459,7 +459,7 @@
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
-                    ></v-col
+                    </v-col
                   >
                 </v-row>
               </v-carousel-item>

@@ -2,6 +2,23 @@
   <VueSlickCarousel v-bind="settings" class="container">
     <div class="card">
       <figure class="carousel-img">
+        <img src="../assets/sdm.jpg" />
+
+        <!-- <figcaption>
+            <v-btn text color="white">{{ slide.text }}</v-btn>
+          </figcaption> -->
+      </figure>
+      <h4>SDM Analysis Team, Netherlands</h4>
+      <!-- <figcaption>
+          <v-btn text color="white">{{ slide.text }}</v-btn>
+        </figcaption> -->
+      <p>
+        The Netherlands Service Delivery Model (SDM) analysis team concluded a fact finding study on Service Delivery Model for Agrolog Ginger Value Chain development with a view to establishing a sustainable and robust service delivery model for Agrolog.
+      </p>
+      <!-- <a href="Learn More">Read More</a> -->
+    </div>
+    <div class="card">
+      <figure class="carousel-img">
         <img src="../assets/DryingTent.jpg" />
 
         <!-- <figcaption>
@@ -183,7 +200,7 @@ export default {
 
         focusOnSelect: true,
         infinite: true,
-        autoplaySpeed:2000,
+        autoplaySpeed:4000,
         speed: 500,
         responsive: [
           {
